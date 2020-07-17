@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:97:"F:\2_install_path\wamp64\www\FastAdmin\public/../application/admin\view\exam\exam_user\index.html";i:1594884466;s:81:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\layout\default.html";i:1588765312;s:78:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\common\meta.html";i:1588765312;s:80:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\common\script.html";i:1588765312;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:97:"F:\2_install_path\wamp64\www\FastAdmin\public/../application/admin\view\exam\exam_user\index.html";i:1594977179;s:81:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\layout\default.html";i:1588765312;s:78:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\common\meta.html";i:1588765312;s:80:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\common\script.html";i:1588765312;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -110,6 +110,20 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="form-group">
+                    <label class="control-label">考试项目</label>
+                    <input type="hidden" class="operate" data-name="link.exam_id" value="=" />
+                    <div>
+                        <select id="c-exam_id"  class="form-control" name="link.exam_id">
+                            <option value="" >查询已关联考试项目的考生</option>
+                            <?php if(is_array($examProject) || $examProject instanceof \think\Collection || $examProject instanceof \think\Paginator): if( count($examProject)==0 ) : echo "" ;else: foreach($examProject as $key=>$vo): ?>
+                            <option value="<?php echo $key; ?>" ><?php echo $vo; ?></option>
+                            <?php endforeach; endif; else: echo "" ;endif; ?>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="form-group">
                     <label class="control-label">院系/单位</label>
                     <div class="row" data-toggle="cxselect" data-selects="org_id,major,class_name">
                         <input type="hidden" class="operate" data-name="org_id" value="=" />
@@ -138,8 +152,9 @@
                     <label class="control-label">年级</label>
                     <input type="hidden" class="operate" data-name="grade" value="=" />
                     <div>
-                        <input id="c-grade" data-source="exam/exam_user/getExamUserGrade" data-primary-key="grade" data-field="grade"
-                        class="form-control selectpage" name="grade" type="text" value="" style="display:block;">
+                        <input id="c-grade" data-source="exam/exam_user/getExamUserGrade" data-primary-key="grade"
+                            data-field="grade" class="form-control selectpage" name="grade" type="text" value=""
+                            style="display:block;">
                     </div>
                 </div>
             </div>
@@ -148,8 +163,9 @@
                     <label class="control-label">考生类型</label>
                     <input type="hidden" class="operate" data-name="type" value="=" />
                     <div>
-                        <input id="c-grade" data-source="exam/exam_user/getExamUserType" data-primary-key="type" data-field="type"
-                        class="form-control selectpage"  name="type" type="text" value="" style="display:block;">
+                        <input id="c-grade" data-source="exam/exam_user/getExamUserType" data-primary-key="type"
+                            data-field="type" class="form-control selectpage" name="type" type="text" value=""
+                            style="display:block;">
                     </div>
                 </div>
             </div>

@@ -24,8 +24,11 @@ if (!function_exists('build_select')) {
 }
 
 if (!function_exists('dd')) {
-    function dd($data){
-        echo '<pre>';print_r($data);exit;
+    function dd($data)
+    {
+        echo '<pre>';
+        print_r($data);
+        exit;
     }
 }
 if (!function_exists('build_radios')) {
@@ -227,5 +230,32 @@ if (!function_exists('build_suffix_image')) {
         </svg>
 EOT;
         return $icon;
+    }
+}
+
+/**
+ * 比较两个日期
+ */
+if (!function_exists('compareDateStatus')) {
+    function compareDateStatus($startDate, $endDate)
+    {
+        $startDate=strtotime($startDate);
+        $endDate=strtotime($endDate);
+        $now=time();
+        $status='';
+        //结束时间必须大于开始时间
+        if (($endDate - $startDate) <=0) {
+            return false;
+        }
+        if ($startDate >= $now) {
+            $status=1;//未开始
+        }
+        if ($endDate <= $now) {
+            $status=3;//已结束
+        }
+        if ($startDate < $now && $now <$endDate) {
+            $status=2;//进行中
+        }
+        return $status;
     }
 }

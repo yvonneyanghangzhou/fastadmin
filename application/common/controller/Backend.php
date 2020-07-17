@@ -410,7 +410,7 @@ class Backend extends Controller
      * 这里示例了所有的参数，所以比较复杂，实现上自己实现只需简单的几行即可
      *
      */
-    protected function selectpage($is_group='')
+    protected function selectpage()
     {
         //设置过滤方法
         $this->request->filter(['strip_tags', 'htmlspecialchars']);
@@ -475,7 +475,7 @@ class Backend extends Controller
             $this->model->where($this->dataLimitField, 'in', $adminIds);
         }
         $list = [];
-        $total = $this->model->where($where)->group($is_group)->count();
+        $total = $this->model->where($where)->count();
         if ($total > 0) {
             if (is_array($adminIds)) {
                 $this->model->where($this->dataLimitField, 'in', $adminIds);
@@ -484,7 +484,6 @@ class Backend extends Controller
                 ->order($order)
                 ->page($page, $pagesize)
                 ->field($this->selectpageFields)
-                ->group($is_group)
                 ->select();
             foreach ($datalist as $index => $item) {
                 unset($item['password'], $item['salt']);

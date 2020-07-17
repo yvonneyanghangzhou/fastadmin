@@ -23,6 +23,7 @@ class Project extends Backend
         parent::_initialize();
         $this->model = new \app\admin\model\exam\Project;
         $this->view->assign("allowOrNotList", $this->model->getAllowOrNotList());
+
     }
     
     /**

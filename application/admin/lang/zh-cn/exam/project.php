@@ -11,7 +11,7 @@ return [
     'Total_times'             => '允许考试总次数',
     'Start_date'              => '开始时间',
     'Close_date'              => '结束时间',
-    'Library_id'              => '题库',
+    'Pass_line'               => '合格线',
     'Question_num'            => '总题数',
     'Enable_commitment'       => '是否启用承诺书',
     'Commitment_content'      => '承诺书内容',

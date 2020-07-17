@@ -4,7 +4,6 @@ namespace app\admin\model\exam;
 
 use think\Model;
 
-
 class Project extends Model
 {
     // 表名
@@ -16,7 +15,7 @@ class Project extends Model
     // 追加属性
     protected $append = [
         'allow_or_not_text',
-        'paper_type_text'
+        'exam_status_text'
     ];
     
     public function getAllowOrNotList()
@@ -30,9 +29,10 @@ class Project extends Model
         return isset($list[$value]) ? $list[$value] : '';
     }
 
-
-
-
-
-
+    public function getExamStatusTextAttr($value, $data)
+    {
+        $status=compareDateStatus($data['start_date'], $data['close_date']);
+        ;
+        return $status;
+    }
 }

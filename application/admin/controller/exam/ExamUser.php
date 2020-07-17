@@ -12,7 +12,7 @@ use think\Db;
  */
 class ExamUser extends Backend
 {
-    
+    use \app\admin\library\traits\ExamProperty;
     /**
      * ExamUser模型对象
      * @var \app\admin\model\exam\ExamUser
@@ -34,6 +34,8 @@ class ExamUser extends Backend
     {
         parent::_initialize();
         $this->model = new \app\admin\model\exam\ExamUser;
+        $this->view->assign("examProject", $this->getExamProject());
+
     }
     
     /**
@@ -58,23 +60,11 @@ class ExamUser extends Backend
                 return $this->selectpage();
             }
             list($where, $sort, $order, $offset, $limit) = $this->buildparams();
-            // $total = $this->model
-            //         ->with(['baseorg'])
-            //         ->where($where)
-            //         ->order($sort, $order)
-            //         ->count();
-
-            // $list = $this->model
-            //         ->with(['baseorg'])
-            //         ->where($where)
-            //         ->order($sort, $order)
-            //         ->limit($offset, $limit)
-            //         ->select();
-
             $total = $this->model
                     ->alias('stu')
-                    ->field('stu.*,org.name as org_name,onl.online_time')
+                    ->field('stu.*,org.name as org_name,onl.online_time,link.exam_id')
                     ->join('base_org org', 'stu.org_id=org.id', 'left')
+                    ->join('exam_project_user link', 'stu.username=link.username', 'left')
                     ->join('exam_online_time onl', 'stu.username=onl.username', 'left')
                     ->where($where)
                     ->order($sort, $order)
@@ -82,14 +72,14 @@ class ExamUser extends Backend
 
             $list = $this->model
                     ->alias('stu')
-                    ->field('stu.*,org.name as org_name,onl.online_time')
+                    ->field('stu.*,org.name as org_name,onl.online_time,link.exam_id')
                     ->join('base_org org', 'stu.org_id=org.id','left')
+                    ->join('exam_project_user link', 'stu.username=link.username', 'left')
                     ->join('exam_online_time onl', 'stu.username=onl.username','left')
                     ->where($where)
                     ->order($sort, $order)
                     ->limit($offset, $limit)
                     ->select();
-
 
             foreach ($list as $k=>$v) {
                 // $onlineTime=Db::table('exam_online_time')->where('username', $v['username'])->value('use_time');
