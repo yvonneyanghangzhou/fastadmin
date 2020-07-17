@@ -1,0 +1,166 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Duration')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-duration" class="form-control" name="row[duration]" type="text" value="{$row.duration|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Description')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-description" class="form-control " rows="5" name="row[description]" cols="50">{$row.description|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Allow_mock')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-allow_mock" class="form-control selectpicker" name="row[allow_mock]">
+                {foreach name="allowMockList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.allow_mock"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Mock_start_date')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mock_start_date" class="form-control" name="row[mock_start_date]" type="number" value="{$row.mock_start_date|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Mock_close_date')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mock_close_date" class="form-control" name="row[mock_close_date]" type="number" value="{$row.mock_close_date|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Total_times')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-total_times" class="form-control" name="row[total_times]" type="number" value="{$row.total_times|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Start_date')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-start_date" class="form-control" name="row[start_date]" type="number" value="{$row.start_date|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Close_date')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-close_date" class="form-control" name="row[close_date]" type="number" value="{$row.close_date|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Paper_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-paper_type" class="form-control selectpicker" name="row[paper_type]">
+                {foreach name="paperTypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.paper_type"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Library_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-library_id" data-rule="required" data-source="library/index" class="form-control selectpage" name="row[library_id]" type="text" value="{$row.library_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pass_line')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pass_line" class="form-control" name="row[pass_line]" type="number" value="{$row.pass_line|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Question_num')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-question_num" class="form-control" name="row[question_num]" type="number" value="{$row.question_num|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Enable_commitment')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-enable_commitment" class="form-control selectpicker" name="row[enable_commitment]">
+                {foreach name="enableCommitmentList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.enable_commitment"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Commitment_content')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-commitment_content" class="form-control" name="row[commitment_content]" type="number" value="{$row.commitment_content|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Allow_print_commitment')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-allow_print_commitment" class="form-control selectpicker" name="row[allow_print_commitment]">
+                {foreach name="allowPrintCommitmentList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.allow_print_commitment"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Allow_print_certificate')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-allow_print_certificate" class="form-control selectpicker" name="row[allow_print_certificate]">
+                {foreach name="allowPrintCertificateList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.allow_print_certificate"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('College_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-college_id" data-rule="required" data-source="college/index" class="form-control selectpage" name="row[college_id]" type="text" value="{$row.college_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Create_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="{$row.create_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Update_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-update_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[update_time]" type="text" value="{$row.update_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Delete_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-delete_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[delete_time]" type="text" value="{$row.delete_time}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,16 @@
+---------------------------------------------------------------
+[ 2020-07-17T08:43:11+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1594946591144
+[运行时间：0.104989s] [吞吐率：9.52req/s] [内存消耗：824.40kb] [文件加载：147]
+[ error ] [0]类的属性不存在:app\admin\model\exam\Project->paper_type_text[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-17T08:46:43+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1594946591145
+[运行时间：0.057704s] [吞吐率：17.33req/s] [内存消耗：824.16kb] [文件加载：147]
+[ error ] [0]类的属性不存在:app\admin\model\exam\Project->paper_type_text[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-17T08:46:48+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1594946591146
+[运行时间：0.049673s] [吞吐率：20.13req/s] [内存消耗：824.95kb] [文件加载：147]
+[ error ] [0]类的属性不存在:app\admin\model\exam\Project->paper_type_text[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-17T08:48:04+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1594946883852
+[运行时间：0.060307s] [吞吐率：16.58req/s] [内存消耗：825.04kb] [文件加载：147]
+[ error ] [0]类的属性不存在:app\admin\model\exam\Project->paper_type_text[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]

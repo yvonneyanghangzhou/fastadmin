@@ -1,0 +1,237 @@
+[ 2020-07-14T14:41:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:41:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:41:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006711s ]
+[ 2020-07-14T14:41:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007190s ]
+[ 2020-07-14T14:41:47+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:42:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:42:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:42:07+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005225s ]
+[ 2020-07-14T14:42:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005745s ]
+[ 2020-07-14T14:42:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:42:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:42:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:42:26+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006026s ]
+[ 2020-07-14T14:42:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006451s ]
+[ 2020-07-14T14:42:26+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:42:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000120s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:42:38+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:42:38+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005382s ]
+[ 2020-07-14T14:42:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005820s ]
+[ 2020-07-14T14:42:38+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:43:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:43:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:43:16+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.007096s ]
+[ 2020-07-14T14:43:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007576s ]
+[ 2020-07-14T14:43:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:43:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:43:39+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:43:39+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006388s ]
+[ 2020-07-14T14:43:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006857s ]
+[ 2020-07-14T14:43:39+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:44:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000154s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:44:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:44:07+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005587s ]
+[ 2020-07-14T14:44:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006015s ]
+[ 2020-07-14T14:44:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:44:07+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php
+[ 2020-07-14T14:44:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000120s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:44:48+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:44:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.007577s ]
+[ 2020-07-14T14:44:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008441s ]
+[ 2020-07-14T14:44:48+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:44:48+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php
+[ 2020-07-14T14:45:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:45:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:45:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005560s ]
+[ 2020-07-14T14:45:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005958s ]
+[ 2020-07-14T14:45:02+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:45:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:45:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:45:41+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005836s ]
+[ 2020-07-14T14:45:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006305s ]
+[ 2020-07-14T14:45:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:45:41+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php
+[ 2020-07-14T14:47:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:47:36+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:47:36+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005976s ]
+[ 2020-07-14T14:47:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006402s ]
+[ 2020-07-14T14:47:36+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:47:36+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php
+[ 2020-07-14T14:47:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:47:54+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:47:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006489s ]
+[ 2020-07-14T14:47:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006934s ]
+[ 2020-07-14T14:47:54+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:47:54+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php
+[ 2020-07-14T14:48:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:48:48+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:48:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005850s ]
+[ 2020-07-14T14:48:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006462s ]
+[ 2020-07-14T14:48:48+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:48:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:48:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:48:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005532s ]
+[ 2020-07-14T14:48:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005918s ]
+[ 2020-07-14T14:48:55+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:49:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000121s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:49:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:49:46+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006649s ]
+[ 2020-07-14T14:49:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007113s ]
+[ 2020-07-14T14:49:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:49:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:49:50+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:49:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006007s ]
+[ 2020-07-14T14:49:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006465s ]
+[ 2020-07-14T14:49:50+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:49:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000149s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:49:53+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:49:53+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005608s ]
+[ 2020-07-14T14:49:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006101s ]
+[ 2020-07-14T14:49:53+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:50:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:50:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:50:05+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005753s ]
+[ 2020-07-14T14:50:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006183s ]
+[ 2020-07-14T14:50:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:50:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000127s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:50:12+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:50:12+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005625s ]
+[ 2020-07-14T14:50:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006049s ]
+[ 2020-07-14T14:50:12+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:50:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:50:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:50:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005756s ]
+[ 2020-07-14T14:50:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006263s ]
+[ 2020-07-14T14:50:22+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:50:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000120s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:50:38+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:50:38+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006151s ]
+[ 2020-07-14T14:50:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006581s ]
+[ 2020-07-14T14:50:38+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:50:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:50:54+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:50:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005329s ]
+[ 2020-07-14T14:50:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005747s ]
+[ 2020-07-14T14:50:54+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:51:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:51:10+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:51:10+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005368s ]
+[ 2020-07-14T14:51:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005777s ]
+[ 2020-07-14T14:51:10+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:51:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:51:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:51:42+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006211s ]
+[ 2020-07-14T14:51:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006649s ]
+[ 2020-07-14T14:51:42+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:51:42+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php
+[ 2020-07-14T14:51:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T14:51:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T14:51:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005867s ]
+[ 2020-07-14T14:51:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006306s ]
+[ 2020-07-14T14:51:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T14:51:51+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php
+[ 2020-07-14T16:38:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000131s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T16:38:37+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T16:38:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005647s ]
+[ 2020-07-14T16:38:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006043s ]
+[ 2020-07-14T16:38:37+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T16:38:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T16:38:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T16:38:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006195s ]
+[ 2020-07-14T16:38:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006661s ]
+[ 2020-07-14T16:38:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T16:40:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000280s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T16:40:54+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T16:40:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005341s ]
+[ 2020-07-14T16:40:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005831s ]
+[ 2020-07-14T16:40:54+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T16:41:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T16:41:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T16:41:56+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005958s ]
+[ 2020-07-14T16:41:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006405s ]
+[ 2020-07-14T16:41:56+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T16:42:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T16:42:18+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T16:42:18+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006625s ]
+[ 2020-07-14T16:42:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007108s ]
+[ 2020-07-14T16:42:18+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T16:42:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T16:42:23+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T16:42:23+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006212s ]
+[ 2020-07-14T16:42:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006692s ]
+[ 2020-07-14T16:42:23+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T16:42:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000139s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T16:42:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T16:42:46+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006854s ]
+[ 2020-07-14T16:42:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007335s ]
+[ 2020-07-14T16:42:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T16:44:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T16:44:50+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T16:44:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005657s ]
+[ 2020-07-14T16:44:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006173s ]
+[ 2020-07-14T16:44:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T16:44:51+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php
+[ 2020-07-14T17:03:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T17:03:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T17:03:35+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005743s ]
+[ 2020-07-14T17:03:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006216s ]
+[ 2020-07-14T17:03:35+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T17:03:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T17:03:52+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T17:03:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.005845s ]
+[ 2020-07-14T17:03:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006316s ]
+[ 2020-07-14T17:03:52+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T17:04:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000239s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T17:04:21+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T17:04:21+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006134s ]
+[ 2020-07-14T17:04:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006677s ]
+[ 2020-07-14T17:04:21+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T17:04:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000166s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T17:04:37+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T17:04:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006508s ]
+[ 2020-07-14T17:04:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006963s ]
+[ 2020-07-14T17:04:37+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T17:05:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000121s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-14T17:05:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-14T17:05:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.006370s ]
+[ 2020-07-14T17:05:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006803s ]
+[ 2020-07-14T17:05:55+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-14T17:05:55+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php

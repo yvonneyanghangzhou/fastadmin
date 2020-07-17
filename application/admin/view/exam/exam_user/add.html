@@ -1,0 +1,60 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Username')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-username" data-rule="required" class="form-control" name="row[username]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Org_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-org_id" data-rule="required" data-source="base_org/index" class="form-control selectpage" name="row[org_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Password')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-password" data-rule="required" class="form-control" name="row[password]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Major')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-major" class="form-control" name="row[major]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Class_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-class_name" class="form-control" name="row[class_name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Grade')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-grade" class="form-control" name="row[grade]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" class="form-control" name="row[type]" type="text">
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
