@@ -11,9 +11,8 @@ trait ExamProperty
     //获取考试项目列表
     public function getExamProject()
     {
-        $list=Db::table('exam_project')->where('delete_time',null)->column('id,name');
+        $list=Db::table('exam_project')->where('deletetime',null)->column('id,name');
         return $list;
-
     }
 
     

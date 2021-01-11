@@ -1,0 +1,8 @@
+---------------------------------------------------------------
+[ 2020-09-07T15:51:19+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/export
+[运行时间：0.167741s] [吞吐率：5.96req/s] [内存消耗：1,581.20kb] [文件加载：186]
+[ error ] [8]未定义数组下标: 0[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:415]
+---------------------------------------------------------------
+[ 2020-09-07T16:21:08+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question?addtabs=1
+[运行时间：0.088011s] [吞吐率：11.36req/s] [内存消耗：858.21kb] [文件加载：150]
+[ error ] [0]致命错误: Call to undefined method think\View::assignconfig()[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:43]

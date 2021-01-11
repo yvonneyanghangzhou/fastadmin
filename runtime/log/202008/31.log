@@ -1,0 +1,64 @@
+---------------------------------------------------------------
+[ 2020-08-31T11:31:48+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598844708021
+[运行时间：0.081860s] [吞吐率：12.22req/s] [内存消耗：917.29kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T11:40:07+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598845206980
+[运行时间：0.073549s] [吞吐率：13.60req/s] [内存消耗：852.60kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T11:40:28+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598845206981
+[运行时间：0.080240s] [吞吐率：12.46req/s] [内存消耗：852.60kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T13:46:24+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598852784240
+[运行时间：0.064559s] [吞吐率：15.49req/s] [内存消耗：852.60kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T13:46:54+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598852784241
+[运行时间：0.091173s] [吞吐率：10.97req/s] [内存消耗：852.60kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T15:12:24+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598857943731
+[运行时间：0.072212s] [吞吐率：13.85req/s] [内存消耗：851.85kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T15:18:33+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598858313263
+[运行时间：0.055925s] [吞吐率：17.88req/s] [内存消耗：851.66kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T15:18:51+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598858331274
+[运行时间：0.080160s] [吞吐率：12.48req/s] [内存消耗：851.70kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T15:19:01+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598858341010
+[运行时间：0.062312s] [吞吐率：16.05req/s] [内存消耗：851.70kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T15:19:31+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598858370987
+[运行时间：0.056331s] [吞吐率：17.75req/s] [内存消耗：851.97kb] [文件加载：153]
+[ error ] [0]致命错误: Class 'app\admin\model\ExamLibrary' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T15:21:42+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598858502160
+[运行时间：0.055338s] [吞吐率：18.07req/s] [内存消耗：841.08kb] [文件加载：152]
+[ error ] [0]致命错误: Class 'app\admin\model\Library' not found[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\model\relation\BelongsTo.php:37]
+---------------------------------------------------------------
+[ 2020-08-31T16:39:23+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.075060s] [吞吐率：13.32req/s] [内存消耗：837.17kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-08-31T16:39:24+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.075534s] [吞吐率：13.24req/s] [内存消耗：837.17kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-08-31T16:39:24+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.052487s] [吞吐率：19.05req/s] [内存消耗：837.17kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-08-31T16:39:55+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.067719s] [吞吐率：14.77req/s] [内存消耗：837.17kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-08-31T16:40:04+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.068864s] [吞吐率：14.52req/s] [内存消耗：837.17kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]

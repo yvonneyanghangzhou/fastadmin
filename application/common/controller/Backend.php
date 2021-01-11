@@ -248,7 +248,7 @@ class Backend extends Controller
      * @param boolean $relationSearch 是否关联查询
      * @return array
      */
-    protected function buildparams($searchfields = null, $relationSearch = null)
+    protected function buildparams($searchfields = null, $relationSearch = null, $exceptionField =[])
     {
         $searchfields = is_null($searchfields) ? $this->searchFields : $searchfields;
         $relationSearch = is_null($relationSearch) ? $this->relationSearch : $relationSearch;
@@ -264,6 +264,7 @@ class Backend extends Controller
         $filter = $filter ? $filter : [];
         $where = [];
         $tableName = '';
+
         if ($relationSearch) {
             if (!empty($this->model)) {
                 $name = \think\Loader::parseName(basename(str_replace('\\', '/', get_class($this->model))));
@@ -289,7 +290,15 @@ class Backend extends Controller
             unset($v);
             $where[] = [implode("|", $searcharr), "LIKE", "%{$search}%"];
         }
+
         foreach ($filter as $k => $v) {
+            //之前重置搜索框时候出错，需要去除掉不在数据库里的字段
+            if ($exceptionField) {
+                if(in_array($k,$exceptionField)){
+                    unset($filter[$k]);
+                    continue;
+                }
+            }
             $sym = isset($op[$k]) ? $op[$k] : '=';
             if (stripos($k, ".") === false) {
                 $k = $tableName . $k;
@@ -371,6 +380,7 @@ class Backend extends Controller
                     break;
             }
         }
+
         $where = function ($query) use ($where) {
             foreach ($where as $k => $v) {
                 if (is_array($v)) {
@@ -485,6 +495,7 @@ class Backend extends Controller
                 ->page($page, $pagesize)
                 ->field($this->selectpageFields)
                 ->select();
+            
             foreach ($datalist as $index => $item) {
                 unset($item['password'], $item['salt']);
                 $list[] = [

@@ -1,0 +1,78 @@
+[ 2020-08-26T15:20:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:20:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:20:16+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006401s ]
+[ 2020-08-26T15:20:16+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000354s ]
+[ 2020-08-26T15:20:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000674s ]
+[ 2020-08-26T15:20:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:22:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:22:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:22:01+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006786s ]
+[ 2020-08-26T15:22:01+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000393s ]
+[ 2020-08-26T15:22:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000718s ]
+[ 2020-08-26T15:22:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:22:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:22:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:22:16+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.005748s ]
+[ 2020-08-26T15:22:16+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000442s ]
+[ 2020-08-26T15:22:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000830s ]
+[ 2020-08-26T15:22:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:22:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:22:53+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:22:53+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006478s ]
+[ 2020-08-26T15:22:53+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000391s ]
+[ 2020-08-26T15:22:53+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000719s ]
+[ 2020-08-26T15:22:53+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:26:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:26:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:26:41+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.005465s ]
+[ 2020-08-26T15:26:41+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000383s ]
+[ 2020-08-26T15:26:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000685s ]
+[ 2020-08-26T15:26:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:26:41+08:00 ][ info ] [ LANG ] F:\2_install_path\wamp64\www\FastAdmin\application\admin\lang/zh-cn.php
+[ 2020-08-26T15:29:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000239s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:29:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:29:14+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006561s ]
+[ 2020-08-26T15:29:14+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000400s ]
+[ 2020-08-26T15:29:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000725s ]
+[ 2020-08-26T15:29:14+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:29:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:29:21+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:29:21+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.005406s ]
+[ 2020-08-26T15:29:21+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000412s ]
+[ 2020-08-26T15:29:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000763s ]
+[ 2020-08-26T15:29:21+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:46:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:46:37+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:46:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006685s ]
+[ 2020-08-26T15:46:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000321s ]
+[ 2020-08-26T15:46:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000656s ]
+[ 2020-08-26T15:46:37+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:46:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:46:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:46:41+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006394s ]
+[ 2020-08-26T15:46:41+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000475s ]
+[ 2020-08-26T15:46:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000838s ]
+[ 2020-08-26T15:46:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:49:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000124s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:49:32+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:49:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006320s ]
+[ 2020-08-26T15:49:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000377s ]
+[ 2020-08-26T15:49:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000723s ]
+[ 2020-08-26T15:49:32+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-26T15:49:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000132s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-26T15:49:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-26T15:49:35+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.007853s ]
+[ 2020-08-26T15:49:35+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000390s ]
+[ 2020-08-26T15:49:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000720s ]
+[ 2020-08-26T15:49:35+08:00 ][ info ] [ DB ] INIT mysql

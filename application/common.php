@@ -362,3 +362,110 @@ if (!function_exists('hsv2rgb')) {
         ];
     }
 }
+
+
+//将秒数转化为时分秒格式
+if (!function_exists('changeTimeType')) {
+    function changeTimeType($seconds)
+    {
+        if ($seconds >= 3600) {
+            $h = intval($seconds / 3600);
+            $seconds = $seconds - $h * 3600;
+            $m = intval($seconds / 60);
+            $s = $seconds - $m * 60;
+            $time = $h . "时" . $m . "分" . $s . "秒";
+        } elseif ($seconds < 3600 && $seconds > 60) {
+            $m = intval($seconds / 60);
+            $s = $seconds - $m * 60;
+            $time = $m . "分" . $s . "秒";
+        } else {
+            $time = $seconds . "秒";
+        }
+        return $time;
+    }
+}
+
+//字符串截取函数
+if (!function_exists('msubstr')) {
+    function msubstr($str, $start=0, $length, $charset="utf-8", $suffix=true)
+    {
+        if (function_exists("mb_substr")) {
+            
+            if ($suffix) {
+                $strLength=mb_strlen($str,$charset);
+                //如果字符串不及需要截断的长度，不显示$suffix
+                $str=mb_substr($str, $start, $length, $charset);
+                if($strLength > $length){
+                    $str .="...";
+                }
+                return $str;
+            } else {
+                return mb_substr($str, $start, $length, $charset);
+            }
+        } elseif (function_exists('iconv_substr')) {
+            if ($suffix) {
+                return iconv_substr($str, $start, $length, $charset)."...";
+            } else {
+                return iconv_substr($str, $start, $length, $charset);
+            }
+        }
+        $re['utf-8'] = "/[x01-x7f]|[xc2-xdf][x80-xbf]|[xe0-xef][x80-xbf]{2}|[xf0-xff][x80-xbf]{3}/";
+        $re['gb2312'] = "/[x01-x7f]|[xb0-xf7][xa0-xfe]/";
+        $re['gbk']  = "/[x01-x7f]|[x81-xfe][x40-xfe]/";
+        $re['big5']  = "/[x01-x7f]|[x81-xfe]([x40-x7e]|xa1-xfe])/";
+        preg_match_all($re[$charset], $str, $match);
+        $slice = join("", array_slice($match[0], $start, $length));
+        if ($suffix) {
+            return $slice."…";
+        }
+        return $slice;
+    }
+}
+
+
+/**
+ * 将人阅读格式的答案转换为数据库格式（必须是大写格式）
+ * 如，将ABC转换为111，将ACD转换为1011
+ * 支持多选与单选，长度不能超过26
+ */
+if (!function_exists('answer_abc2bin')) {
+    function answer_abc2bin($abc)
+    {
+        $len = strlen($abc);
+        $bin = '00000000000000000000000000';
+        for ($i = 0; $i < $len && $i < $len; $i++) {
+            $chr = $abc{$i};
+            $idx = ord($chr) - ord('A');
+            $bin{$idx} = 1;
+        }
+        $i = 25;
+        while ($i >= 0 && $bin{$i} == '0') {
+            $i--;
+        }
+        if ($i == -1) {
+            return '';
+        }
+        return substr($bin, 0, $i + 1);
+    }
+}
+
+/**
+ * 将数据库格式的试题答案转换为人阅读格式的答案
+ * 如将0010转换为C
+ * 单选复选都支持，选项个数不能超过26个
+ */
+if(!function_exists('answer_bin2abc')){
+    function answer_bin2abc($bin)
+    {
+        $len = strlen($bin);
+        $abc = '';
+        for ($i = 0; $i < $len && $i < 26; $i++) {
+            $c = $bin{$i};
+            if ($c == '1') {
+                $abc .= chr(ord('A') + $i);
+            }
+        }
+        return $abc;
+    }
+}
+

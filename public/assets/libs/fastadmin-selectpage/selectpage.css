@@ -128,7 +128,7 @@ div.sp_clear_btn.sp_align_right {
     padding: 0;
     position: absolute;
     z-index: 100;
-    width: 100px;
+    width: 300px;
     border-radius: 2px;
 }
 div.sp_result_area.shadowDown{

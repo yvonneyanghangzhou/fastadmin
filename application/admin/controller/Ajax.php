@@ -62,14 +62,14 @@ class Ajax extends Backend
         //判断是否已经存在附件
         $sha1 = $file->hash();
         $extparam = $this->request->post();
-
         $upload = Config::get('upload');
-
         preg_match('/(\d+)(\w+)/', $upload['maxsize'], $matches);
+        
         $type = strtolower($matches[2]);
         $typeDict = ['b' => 0, 'k' => 1, 'kb' => 1, 'm' => 2, 'mb' => 2, 'gb' => 3, 'g' => 3];
         $size = (int)$upload['maxsize'] * pow(1024, isset($typeDict[$type]) ? $typeDict[$type] : 0);
         $fileInfo = $file->getInfo();
+
         $suffix = strtolower(pathinfo($fileInfo['name'], PATHINFO_EXTENSION));
         $suffix = $suffix && preg_match("/^[a-zA-Z0-9]+$/", $suffix) ? $suffix : 'file';
 

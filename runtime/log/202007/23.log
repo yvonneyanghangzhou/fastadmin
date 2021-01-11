@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2020-07-23T15:01:36+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?addtabs=1
+[运行时间：0.158065s] [吞吐率：6.33req/s] [内存消耗：908.22kb] [文件加载：151]
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[F:\2_install_path\wamp64\www\FastAdmin\runtime\temp\93dff23929a53a809500315a366948ea.php:113]
+---------------------------------------------------------------
+[ 2020-07-23T15:11:25+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.059585s] [吞吐率：16.78req/s] [内存消耗：817.72kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-07-23T15:23:11+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.086665s] [吞吐率：11.54req/s] [内存消耗：816.63kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]

@@ -1,0 +1,20 @@
+---------------------------------------------------------------
+[ 2020-08-21T16:08:13+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.126164s] [吞吐率：7.93req/s] [内存消耗：819.70kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-21T16:24:58+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkExamSelect
+[运行时间：0.085996s] [吞吐率：11.63req/s] [内存消耗：808.13kb] [文件加载：150]
+[ error ] [0]模板文件不存在:F:\2_install_path\wamp64\www\FastAdmin\public/../application/admin\view\exam\exam_user\link_exam_select.html[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2020-08-21T16:25:04+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkExamSelect
+[运行时间：0.061612s] [吞吐率：16.23req/s] [内存消耗：807.00kb] [文件加载：150]
+[ error ] [0]模板文件不存在:F:\2_install_path\wamp64\www\FastAdmin\public/../application/admin\view\exam\exam_user\link_exam_select.html[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2020-08-21T16:26:31+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.102120s] [吞吐率：9.79req/s] [内存消耗：818.48kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-21T16:27:52+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.075871s] [吞吐率：13.18req/s] [内存消耗：818.48kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]

@@ -51,6 +51,7 @@ class Database extends Backend
     public function query()
     {
         $do_action = $this->request->post('do_action');
+        dd($do_action);
 
         echo '<style type="text/css">
             xmp,body{margin:0;padding:0;line-height:18px;font-size:12px;font-family:"Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;}

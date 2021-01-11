@@ -1,0 +1,20 @@
+---------------------------------------------------------------
+[ 2020-09-01T16:13:10+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.116512s] [吞吐率：8.58req/s] [内存消耗：835.07kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-01T16:13:12+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.069974s] [吞吐率：14.29req/s] [内存消耗：833.40kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-01T16:13:49+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.083084s] [吞吐率：12.04req/s] [内存消耗：833.40kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-01T16:14:16+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.064544s] [吞吐率：15.49req/s] [内存消耗：833.43kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-01T16:14:34+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question_tag/index
+[运行时间：0.137219s] [吞吐率：7.29req/s] [内存消耗：833.58kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]

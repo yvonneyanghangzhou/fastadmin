@@ -1,0 +1,92 @@
+---------------------------------------------------------------
+[ 2020-09-03T09:25:40+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/add?dialog=1
+[运行时间：0.085867s] [吞吐率：11.65req/s] [内存消耗：859.69kb] [文件加载：149]
+[ error ] [0]致命错误: Class 'app\admin\controller\exam\Db' not found[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:102]
+---------------------------------------------------------------
+[ 2020-09-03T10:58:10+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/edit/ids/1?dialog=1
+[运行时间：0.066363s] [吞吐率：15.07req/s] [内存消耗：933.15kb] [文件加载：153]
+[ error ] [8]未定义数组索引: value[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\template\taglib\Cx.php:364]
+---------------------------------------------------------------
+[ 2020-09-03T10:58:44+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/edit/ids/1?dialog=1
+[运行时间：0.075143s] [吞吐率：13.31req/s] [内存消耗：931.91kb] [文件加载：153]
+[ error ] [8]未定义数组索引: value[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\template\taglib\Cx.php:364]
+---------------------------------------------------------------
+[ 2020-09-03T15:07:52+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/export
+[运行时间：0.174426s] [吞吐率：5.73req/s] [内存消耗：1,672.76kb] [文件加载：192]
+[ error ] [0]File "F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam/muban/test.xls" does not exist.[F:\2_install_path\wamp64\www\FastAdmin\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php:137]
+---------------------------------------------------------------
+[ 2020-09-03T15:08:52+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/export
+[运行时间：0.128979s] [吞吐率：7.75req/s] [内存消耗：1,408.41kb] [文件加载：192]
+[ error ] [0]File "F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam/exceltpl/question.xls" does not exist.[F:\2_install_path\wamp64\www\FastAdmin\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php:137]
+---------------------------------------------------------------
+[ 2020-09-03T15:13:09+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/export
+[运行时间：0.199721s] [吞吐率：5.01req/s] [内存消耗：1,702.02kb] [文件加载：210]
+[ error ] [8]未定义数组索引: week[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:425]
+---------------------------------------------------------------
+[ 2020-09-03T15:14:01+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/export
+[运行时间：0.084664s] [吞吐率：11.81req/s] [内存消耗：1,376.77kb] [文件加载：186]
+[ error ] [8]未定义数组下标: 0[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:413]
+---------------------------------------------------------------
+[ 2020-09-03T15:14:16+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/export
+[运行时间：0.089604s] [吞吐率：11.16req/s] [内存消耗：1,376.77kb] [文件加载：186]
+[ error ] [8]未定义数组下标: 0[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:413]
+---------------------------------------------------------------
+[ 2020-09-03T15:48:18+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/export
+[运行时间：0.085348s] [吞吐率：11.72req/s] [内存消耗：1,380.41kb] [文件加载：186]
+[ error ] [8]未定义数组下标: 0[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:415]
+---------------------------------------------------------------
+[ 2020-09-03T15:48:34+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/export
+[运行时间：0.080195s] [吞吐率：12.47req/s] [内存消耗：1,380.41kb] [文件加载：186]
+[ error ] [8]未定义数组下标: 0[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:415]
+---------------------------------------------------------------
+[ 2020-09-03T16:36:59+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%22title_text%22%3A%22%E5%8F%AF%E4%BB%A5%22%7D&op=%7B%22title_text%22%3A%22%3D%22%7D&_=1599122165227
+[运行时间：0.081642s] [吞吐率：12.25req/s] [内存消耗：951.30kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.title_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T16:37:00+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%22title_text%22%3A%22%E5%8F%AF%E4%BB%A5%22%7D&op=%7B%22title_text%22%3A%22%3D%22%7D&_=1599122165228
+[运行时间：0.053520s] [吞吐率：18.68req/s] [内存消耗：949.95kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.title_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T16:37:46+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%22answer_text%22%3A%22%E6%AD%A3%E7%A1%AE%22%2C%22level%22%3A%221%22%7D&op=%7B%22answer_text%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599122165233
+[运行时间：0.060681s] [吞吐率：16.48req/s] [内存消耗：950.80kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:15:32+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=%E9%A2%98%E5%B9%B2&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512353
+[运行时间：0.068243s] [吞吐率：14.65req/s] [内存消耗：954.74kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:15:33+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512354
+[运行时间：0.067491s] [吞吐率：14.82req/s] [内存消耗：953.91kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:15:34+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=%E5%8E%A6%E9%97%A8&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512355
+[运行时间：0.068850s] [吞吐率：14.52req/s] [内存消耗：954.74kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:15:35+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512356
+[运行时间：0.076021s] [吞吐率：13.15req/s] [内存消耗：953.91kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:15:37+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=huoz&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512357
+[运行时间：0.073950s] [吞吐率：13.52req/s] [内存消耗：954.73kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:15:39+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=%E7%81%AB%E7%81%BE&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512358
+[运行时间：0.073656s] [吞吐率：13.58req/s] [内存消耗：954.74kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:15:43+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=%E7%81%AB%E7%81%BE&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512359
+[运行时间：0.069457s] [吞吐率：14.40req/s] [内存消耗：954.74kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:15:44+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=%E7%81%AB%E7%81%BE&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512360
+[运行时间：0.051083s] [吞吐率：19.58req/s] [内存消耗：954.74kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:15:48+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=%E7%81%AB%E7%81%BE&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512361
+[运行时间：0.085439s] [吞吐率：11.70req/s] [内存消耗：954.74kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-03T17:18:45+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&search=%E7%81%AB%E7%81%BE&sort=id&order=desc&offset=0&limit=10&filter=%7B%22type%22%3A%221%22%2C%22answer_text%22%3A%22%E7%AD%94%E6%A1%88%22%2C%22examlibrary.name%22%3A%22%E9%A2%98%E5%BA%93%22%2C%22examquestiontag.name%22%3A%22%E7%9F%A5%E8%AF%86%22%2C%22level%22%3A%221%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22answer_text%22%3A%22%3D%22%2C%22examlibrary.name%22%3A%22%3D%22%2C%22examquestiontag.name%22%3A%22%3D%22%2C%22level%22%3A%22%3D%22%7D&_=1599124512362
+[运行时间：0.078859s] [吞吐率：12.68req/s] [内存消耗：954.74kb] [文件加载：156]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'question.answer_text' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]

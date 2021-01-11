@@ -1,0 +1,20 @@
+---------------------------------------------------------------
+[ 2020-09-02T15:06:15+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/library/index
+[运行时间：0.073973s] [吞吐率：13.52req/s] [内存消耗：839.49kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-02T15:06:16+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/library/index
+[运行时间：0.062504s] [吞吐率：16.00req/s] [内存消耗：838.20kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-09-02T15:46:35+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1599032795237
+[运行时间：0.121290s] [吞吐率：8.24req/s] [内存消耗：1,002.95kb] [文件加载：156]
+[ error ] [0]致命错误: Call to undefined function app\admin\model\exam\msubstr()[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\Question.php:64]
+---------------------------------------------------------------
+[ 2020-09-02T17:00:22+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/add?dialog=1
+[运行时间：0.090820s] [吞吐率：11.01req/s] [内存消耗：861.26kb] [文件加载：150]
+[ error ] [8]未定义数组索引: input_answer[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:97]
+---------------------------------------------------------------
+[ 2020-09-02T17:22:20+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/add?dialog=1
+[运行时间：0.105210s] [吞吐率：9.50req/s] [内存消耗：896.87kb] [文件加载：149]
+[ error ] [0]致命错误: Class 'app\admin\controller\exam\Db' not found[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:103]

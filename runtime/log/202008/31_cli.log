@@ -1,0 +1,56 @@
+[ 2020-08-31T11:32:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-31T11:32:25+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-31T11:32:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006356s ]
+[ 2020-08-31T11:32:25+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000384s ]
+[ 2020-08-31T11:32:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000828s ]
+[ 2020-08-31T11:32:25+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-31T11:32:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-31T11:32:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-31T11:32:35+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006505s ]
+[ 2020-08-31T11:32:35+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.001296s ]
+[ 2020-08-31T11:32:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002076s ]
+[ 2020-08-31T11:32:35+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-31T11:32:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000320s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-31T11:32:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-31T11:32:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.008773s ]
+[ 2020-08-31T11:32:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000567s ]
+[ 2020-08-31T11:32:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001104s ]
+[ 2020-08-31T11:32:55+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-31T11:33:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-31T11:33:10+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-31T11:33:10+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.005561s ]
+[ 2020-08-31T11:33:10+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.001322s ]
+[ 2020-08-31T11:33:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002433s ]
+[ 2020-08-31T11:33:10+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-31T13:47:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-31T13:47:23+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-31T13:47:23+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.006427s ]
+[ 2020-08-31T13:47:23+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000394s ]
+[ 2020-08-31T13:47:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001213s ]
+[ 2020-08-31T13:47:23+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-31T13:47:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-31T13:47:32+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-31T13:47:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.009440s ]
+[ 2020-08-31T13:47:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000362s ]
+[ 2020-08-31T13:47:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000788s ]
+[ 2020-08-31T13:47:32+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-31T13:48:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-31T13:48:12+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-31T13:48:12+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.005939s ]
+[ 2020-08-31T13:48:12+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000405s ]
+[ 2020-08-31T13:48:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001040s ]
+[ 2020-08-31T13:48:12+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-08-31T13:48:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ LOG ] INIT File
+[ 2020-08-31T13:48:19+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-08-31T13:48:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\banip\Banip @app_init [ RunTime:0.007913s ]
+[ 2020-08-31T13:48:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\log\Log @app_init [ RunTime:0.000570s ]
+[ 2020-08-31T13:48:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001505s ]
+[ 2020-08-31T13:48:19+08:00 ][ info ] [ DB ] INIT mysql

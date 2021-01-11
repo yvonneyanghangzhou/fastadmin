@@ -1,0 +1,228 @@
+---------------------------------------------------------------
+[ 2020-07-20T10:49:21+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?addtabs=1
+[运行时间：0.083808s] [吞吐率：11.93req/s] [内存消耗：815.61kb] [文件加载：150]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'delete_time' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T11:12:37+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?addtabs=1
+[运行时间：0.072938s] [吞吐率：13.71req/s] [内存消耗：815.91kb] [文件加载：151]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'delete_time' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T11:31:02+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/getExamUserType
+[运行时间：0.056929s] [吞吐率：17.57req/s] [内存消耗：821.57kb] [文件加载：150]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T11:31:04+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/getExamUserType
+[运行时间：0.065635s] [吞吐率：15.24req/s] [内存消耗：821.57kb] [文件加载：150]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T11:31:07+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/getExamUserType
+[运行时间：0.067096s] [吞吐率：14.90req/s] [内存消耗：821.57kb] [文件加载：150]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T14:40:48+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project?addtabs=1
+[运行时间：0.095089s] [吞吐率：10.52req/s] [内存消耗：829.94kb] [文件加载：148]
+[ error ] [0]method not exist:think\db\Query->getStatusList[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Query.php:103]
+---------------------------------------------------------------
+[ 2020-07-20T15:51:28+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339502
+[运行时间：0.060475s] [吞吐率：16.54req/s] [内存消耗：835.34kb] [文件加载：147]
+[ error ] [0]致命错误: Closure object cannot have properties[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:51:50+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339503
+[运行时间：0.052396s] [吞吐率：19.09req/s] [内存消耗：835.22kb] [文件加载：147]
+[ error ] [0]致命错误: Cannot use object of type Closure as array[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:54:01+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339505
+[运行时间：0.075100s] [吞吐率：13.32req/s] [内存消耗：835.22kb] [文件加载：147]
+[ error ] [0]致命错误: Undefined class constant 'where'[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:54:19+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339506
+[运行时间：0.047112s] [吞吐率：21.23req/s] [内存消耗：835.25kb] [文件加载：147]
+[ error ] [0]致命错误: Call to undefined method Closure::toArray()[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:55:06+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339508
+[运行时间：0.054886s] [吞吐率：18.22req/s] [内存消耗：815.79kb] [文件加载：147]
+[ error ] [0]致命错误: Closure object cannot have properties[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:55:18+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339509
+[运行时间：0.026974s] [吞吐率：37.07req/s] [内存消耗：377.02kb] [文件加载：127]
+[ error ] [0]语法解析错误: syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:55:40+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339510
+[运行时间：0.063697s] [吞吐率：15.70req/s] [内存消耗：835.22kb] [文件加载：147]
+[ error ] [0]致命错误: Closure object cannot have properties[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:56:02+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339511
+[运行时间：0.068310s] [吞吐率：14.64req/s] [内存消耗：815.79kb] [文件加载：147]
+[ error ] [0]致命错误: Cannot use object of type Closure as array[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:56:18+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339512
+[运行时间：0.049576s] [吞吐率：20.17req/s] [内存消耗：836.99kb] [文件加载：148]
+[ error ] [2]Use of undefined constant where - assumed 'where' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:56:26+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339513
+[运行时间：0.029104s] [吞吐率：34.36req/s] [内存消耗：376.89kb] [文件加载：127]
+[ error ] [0]语法解析错误: syntax error, unexpected '.', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:56:37+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339514
+[运行时间：0.060231s] [吞吐率：16.60req/s] [内存消耗：835.40kb] [文件加载：147]
+[ error ] [0]致命错误: Undefined class constant 'static'[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T15:56:46+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595231339515
+[运行时间：0.049627s] [吞吐率：20.15req/s] [内存消耗：835.22kb] [文件加载：147]
+[ error ] [0]致命错误: Undefined class constant 'static'[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:61]
+---------------------------------------------------------------
+[ 2020-07-20T16:17:51+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233068126
+[运行时间：0.050889s] [吞吐率：19.65req/s] [内存消耗：906.30kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '16:17:51 and close_date > 2020-07-20 16:17:51 ) ) AND `project`.`deletetime` IS ' at line 1[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:17:52+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233068127
+[运行时间：0.063593s] [吞吐率：15.72req/s] [内存消耗：906.24kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '16:17:52 ) ) AND `project`.`deletetime` IS NULL ORDER BY `project`.`weigh` DESC ' at line 1[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:19:39+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233083877
+[运行时间：0.070726s] [吞吐率：14.14req/s] [内存消耗：901.80kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '16:19:39 ) ) AND `project`.`deletetime` IS NULL ORDER BY `project`.`weigh` DESC ' at line 1[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:19:39+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233083878
+[运行时间：0.048431s] [吞吐率：20.65req/s] [内存消耗：901.80kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '16:19:39 and close_date > 2020-07-20 16:19:39 ) ) AND `project`.`deletetime` IS ' at line 1[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:19:40+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233083879
+[运行时间：0.058755s] [吞吐率：17.02req/s] [内存消耗：901.80kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '16:19:40 ) ) AND `project`.`deletetime` IS NULL ORDER BY `project`.`weigh` DESC ' at line 1[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:19:43+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233083880
+[运行时间：0.082371s] [吞吐率：12.14req/s] [内存消耗：902.07kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '16:19:43 and close_date > 2020-07-20 16:19:43 ) ) AND `project`.`deletetime` IS ' at line 1[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:24:34+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233471992
+[运行时间：0.064263s] [吞吐率：15.56req/s] [内存消耗：898.45kb] [文件加载：151]
+[ error ] [0]查询表达式错误:unix_timestamp(start_date)[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:24:35+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233471993
+[运行时间：0.068240s] [吞吐率：14.65req/s] [内存消耗：898.45kb] [文件加载：151]
+[ error ] [0]查询表达式错误:unix_timestamp(start_date)[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:24:41+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233471994
+[运行时间：0.070925s] [吞吐率：14.10req/s] [内存消耗：898.73kb] [文件加载：151]
+[ error ] [0]查询表达式错误:unix_timestamp(close_date)[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:25:26+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233471995
+[运行时间：0.073299s] [吞吐率：13.64req/s] [内存消耗：899.84kb] [文件加载：151]
+[ error ] [0]查询表达式错误:unix_timestamp(start_date)[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:25:27+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233471996
+[运行时间：0.060095s] [吞吐率：16.64req/s] [内存消耗：898.70kb] [文件加载：151]
+[ error ] [0]查询表达式错误:close_date[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:25:29+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233471997
+[运行时间：0.072582s] [吞吐率：13.78req/s] [内存消耗：898.73kb] [文件加载：151]
+[ error ] [0]查询表达式错误:unix_timestamp(start_date)[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:25:32+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233471998
+[运行时间：0.078254s] [吞吐率：12.78req/s] [内存消耗：898.70kb] [文件加载：151]
+[ error ] [0]查询表达式错误:close_date[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:38:33+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233471999
+[运行时间：0.081561s] [吞吐率：12.26req/s] [内存消耗：899.84kb] [文件加载：151]
+[ error ] [0]查询表达式错误:unix_timestamp(start_date)[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:38:51+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233472001
+[运行时间：0.081886s] [吞吐率：12.21req/s] [内存消耗：460.38kb] [文件加载：128]
+[ error ] [64]Cannot use empty array elements in arrays[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:75]
+---------------------------------------------------------------
+[ 2020-07-20T16:38:54+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233472002
+[运行时间：0.037947s] [吞吐率：26.35req/s] [内存消耗：446.40kb] [文件加载：128]
+[ error ] [64]Cannot use empty array elements in arrays[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:75]
+---------------------------------------------------------------
+[ 2020-07-20T16:38:55+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233472003
+[运行时间：0.022608s] [吞吐率：44.23req/s] [内存消耗：446.40kb] [文件加载：128]
+[ error ] [64]Cannot use empty array elements in arrays[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Project.php:75]
+---------------------------------------------------------------
+[ 2020-07-20T16:39:03+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233472005
+[运行时间：0.055880s] [吞吐率：17.90req/s] [内存消耗：898.73kb] [文件加载：151]
+[ error ] [0]查询表达式错误:unix_timestamp(start_date)[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:39:07+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595233472007
+[运行时间：0.058666s] [吞吐率：17.05req/s] [内存消耗：898.73kb] [文件加载：151]
+[ error ] [0]查询表达式错误:unix_timestamp(start_date)[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-07-20T16:41:00+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595234459521
+[运行时间：0.122442s] [吞吐率：8.17req/s] [内存消耗：904.92kb] [文件加载：152]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:41:00+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595234459522
+[运行时间：0.067168s] [吞吐率：14.89req/s] [内存消耗：906.04kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:41:01+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595234459523
+[运行时间：0.065444s] [吞吐率：15.28req/s] [内存消耗：905.56kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:41:01+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595234459524
+[运行时间：0.061592s] [吞吐率：16.24req/s] [内存消耗：905.56kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:41:10+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595234459525
+[运行时间：0.070444s] [吞吐率：14.20req/s] [内存消耗：906.31kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:46:43+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&search=3&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595234793100
+[运行时间：0.079404s] [吞吐率：12.59req/s] [内存消耗：907.06kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:46:46+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&search=3&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595234793102
+[运行时间：0.060684s] [吞吐率：16.48req/s] [内存消耗：907.06kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:51:11+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595235070217
+[运行时间：0.059652s] [吞吐率：16.76req/s] [内存消耗：905.56kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:51:12+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595235070218
+[运行时间：0.064793s] [吞吐率：15.43req/s] [内存消耗：906.04kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:51:13+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595235070219
+[运行时间：0.064743s] [吞吐率：15.45req/s] [内存消耗：905.56kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:51:13+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595235070220
+[运行时间：0.057401s] [吞吐率：17.42req/s] [内存消耗：905.56kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:52:26+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595235070223
+[运行时间：0.076748s] [吞吐率：13.03req/s] [内存消耗：1,033.16kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:52:27+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595235070224
+[运行时间：0.060340s] [吞吐率：16.57req/s] [内存消耗：1,032.68kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:52:28+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%222%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595235070225
+[运行时间：0.062753s] [吞吐率：15.94req/s] [内存消耗：907.42kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:52:29+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%221%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595235070226
+[运行时间：0.057389s] [吞吐率：17.42req/s] [内存消耗：905.84kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T16:52:31+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/project/index?addtabs=1&sort=weigh&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%223%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1595235070227
+[运行时间：0.061641s] [吞吐率：16.22req/s] [内存消耗：905.84kb] [文件加载：153]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.status' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-20T17:50:19+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?addtabs=1
+[运行时间：0.129601s] [吞吐率：7.72req/s] [内存消耗：902.53kb] [文件加载：152]
+[ error ] [8]未定义变量: examProject[F:\2_install_path\wamp64\www\FastAdmin\runtime\temp\93dff23929a53a809500315a366948ea.php:103]
+---------------------------------------------------------------
+[ 2020-07-20T17:51:03+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?addtabs=1
+[运行时间：0.115094s] [吞吐率：8.69req/s] [内存消耗：802.36kb] [文件加载：150]
+[ error ] [8]未定义变量: examProject[F:\2_install_path\wamp64\www\FastAdmin\runtime\temp\93dff23929a53a809500315a366948ea.php:103]
+---------------------------------------------------------------
+[ 2020-07-20T17:51:38+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?addtabs=1
+[运行时间：0.109527s] [吞吐率：9.13req/s] [内存消耗：844.52kb] [文件加载：148]
+[ error ] [0]致命错误: Call to undefined method app\admin\controller\exam\ExamUser::getExamProject()[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:26]
+---------------------------------------------------------------
+[ 2020-07-20T17:53:02+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22link.exam_id%22%3A%221%22%7D&op=%7B%22link.exam_id%22%3A%22%3D%22%7D&_=1595238768009
+[运行时间：0.076406s] [吞吐率：13.09req/s] [内存消耗：907.69kb] [文件加载：154]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'link.exam_id' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]

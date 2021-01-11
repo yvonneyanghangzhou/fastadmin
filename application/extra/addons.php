@@ -4,6 +4,11 @@ return array (
   'autoload' => false,
   'hooks' => 
   array (
+    'app_init' => 
+    array (
+      0 => 'banip',
+      1 => 'log',
+    ),
     'ems_send' => 
     array (
       0 => 'faems',
@@ -11,10 +16,6 @@ return array (
     'ems_notice' => 
     array (
       0 => 'faems',
-    ),
-    'app_init' => 
-    array (
-      0 => 'log',
     ),
     'admin_login_init' => 
     array (

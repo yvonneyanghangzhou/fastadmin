@@ -1,0 +1,160 @@
+---------------------------------------------------------------
+[ 2020-08-25T10:15:53+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.060970s] [吞吐率：16.40req/s] [内存消耗：819.57kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T13:54:29+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkExam?callback=jQuery22407258979502191274_1598334860880
+[运行时间：0.070869s] [吞吐率：14.11req/s] [内存消耗：806.10kb] [文件加载：149]
+[ error ] [0]方法参数错误:filter[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2020-08-25T13:56:49+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.063762s] [吞吐率：15.68req/s] [内存消耗：818.26kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T14:08:57+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.080881s] [吞吐率：12.36req/s] [内存消耗：819.37kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T14:09:02+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.076245s] [吞吐率：13.12req/s] [内存消耗：817.79kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T14:09:04+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=5
+[运行时间：0.060972s] [吞吐率：16.40req/s] [内存消耗：817.95kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T14:20:46+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.064082s] [吞吐率：15.61req/s] [内存消耗：818.26kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T14:42:58+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/unlinkExam
+[运行时间：0.067559s] [吞吐率：14.80req/s] [内存消耗：805.73kb] [文件加载：149]
+[ error ] [0]方法参数错误:filter[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2020-08-25T14:43:06+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/unlinkExam
+[运行时间：0.071785s] [吞吐率：13.93req/s] [内存消耗：805.73kb] [文件加载：149]
+[ error ] [0]方法参数错误:filter[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2020-08-25T14:43:50+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/unlinkExam
+[运行时间：0.049393s] [吞吐率：20.25req/s] [内存消耗：805.73kb] [文件加载：149]
+[ error ] [0]方法参数错误:filter[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2020-08-25T14:44:32+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/unlinkExam
+[运行时间：0.064447s] [吞吐率：15.52req/s] [内存消耗：805.73kb] [文件加载：149]
+[ error ] [0]方法参数错误:filter[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2020-08-25T14:46:09+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.066415s] [吞吐率：15.06req/s] [内存消耗：818.11kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T14:46:20+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.068267s] [吞吐率：14.65req/s] [内存消耗：818.26kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T14:50:57+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.060009s] [吞吐率：16.66req/s] [内存消耗：818.35kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:04:05+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.080894s] [吞吐率：12.36req/s] [内存消耗：819.46kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:32:44+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.091262s] [吞吐率：10.96req/s] [内存消耗：817.88kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:34:39+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.068751s] [吞吐率：14.55req/s] [内存消耗：819.46kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:34:40+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=3
+[运行时间：0.061129s] [吞吐率：16.36req/s] [内存消耗：817.90kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:34:46+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.081483s] [吞吐率：12.27req/s] [内存消耗：818.35kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:36:35+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.068268s] [吞吐率：14.65req/s] [内存消耗：818.99kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:36:36+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.069164s] [吞吐率：14.46req/s] [内存消耗：818.35kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:36:37+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=5
+[运行时间：0.058404s] [吞吐率：17.12req/s] [内存消耗：818.04kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:36:39+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.060725s] [吞吐率：16.47req/s] [内存消耗：818.35kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:36:40+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=3
+[运行时间：0.066688s] [吞吐率：15.00req/s] [内存消耗：817.90kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:36:41+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.062430s] [吞吐率：16.02req/s] [内存消耗：817.88kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:36:43+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=5
+[运行时间：0.067225s] [吞吐率：14.88req/s] [内存消耗：818.04kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:36:46+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.062052s] [吞吐率：16.12req/s] [内存消耗：818.35kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:37:07+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.074978s] [吞吐率：13.34req/s] [内存消耗：818.35kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:37:21+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=3
+[运行时间：0.071627s] [吞吐率：13.96req/s] [内存消耗：817.90kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:38:35+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.056071s] [吞吐率：17.83req/s] [内存消耗：818.99kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:38:39+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=5
+[运行时间：0.063724s] [吞吐率：15.69req/s] [内存消耗：818.04kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:39:27+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.079066s] [吞吐率：12.65req/s] [内存消耗：819.46kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:39:52+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=3
+[运行时间：0.068545s] [吞吐率：14.59req/s] [内存消耗：817.90kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:39:53+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.064825s] [吞吐率：15.43req/s] [内存消耗：818.50kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:52:28+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.088916s] [吞吐率：11.25req/s] [内存消耗：818.50kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:59:02+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=3
+[运行时间：0.091429s] [吞吐率：10.94req/s] [内存消耗：818.34kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T15:59:30+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.070895s] [吞吐率：14.11req/s] [内存消耗：818.50kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T16:04:15+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.061593s] [吞吐率：16.24req/s] [内存消耗：818.93kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T16:06:54+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=3
+[运行时间：0.082352s] [吞吐率：12.14req/s] [内存消耗：818.34kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]
+---------------------------------------------------------------
+[ 2020-08-25T16:07:05+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.062787s] [吞吐率：15.93req/s] [内存消耗：818.93kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]

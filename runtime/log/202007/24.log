@@ -1,0 +1,16 @@
+---------------------------------------------------------------
+[ 2020-07-24T17:02:29+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22link.exam_id%22%3A%221%22%2C%22org_id%22%3A%223%22%2C%22link_exam_id%22%3A%222%22%7D&op=%7B%22link.exam_id%22%3A%22%3D%22%2C%22org_id%22%3A%22%3D%22%2C%22link_exam_id%22%3A%22%3D%22%7D&_=1595581334962
+[运行时间：0.081484s] [吞吐率：12.27req/s] [内存消耗：827.38kb] [文件加载：152]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu.link_exam_id' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-24T17:06:02+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22link.exam_id%22%3A%221%22%2C%22org_id%22%3A%223%22%2C%22link_exam_id%22%3A%222%22%7D&op=%7B%22link.exam_id%22%3A%22%3D%22%2C%22org_id%22%3A%22%3D%22%2C%22link_exam_id%22%3A%22%3D%22%7D&_=1595581334965
+[运行时间：0.078271s] [吞吐率：12.78req/s] [内存消耗：825.95kb] [文件加载：152]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu.link_exam_id' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-24T17:09:29+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22link.exam_id%22%3A%221%22%2C%22org_id%22%3A%223%22%2C%22link_exam_id%22%3A%222%22%7D&op=%7B%22link.exam_id%22%3A%22%3D%22%2C%22org_id%22%3A%22%3D%22%2C%22link_exam_id%22%3A%22%3D%22%7D&_=1595581334966
+[运行时间：0.124027s] [吞吐率：8.06req/s] [内存消耗：827.06kb] [文件加载：152]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stu.link_exam_id' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-24T17:10:31+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.072202s] [吞吐率：13.85req/s] [内存消耗：819.61kb] [文件加载：154]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:49]

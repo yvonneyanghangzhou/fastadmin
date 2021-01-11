@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2020-08-20T14:27:04+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/example/customsearch/edit/ids/638?dialog=1
+[运行时间：0.089350s] [吞吐率：11.19req/s] [内存消耗：816.73kb] [文件加载：148]
+[ error ] [0]模板文件不存在:F:\2_install_path\wamp64\www\FastAdmin\public/../application/admin\view\example\customsearch\edit.html[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2020-08-20T14:31:51+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/example/baidumap/edit/ids/639?dialog=1
+[运行时间：0.088152s] [吞吐率：11.34req/s] [内存消耗：816.38kb] [文件加载：148]
+[ error ] [0]模板文件不存在:F:\2_install_path\wamp64\www\FastAdmin\public/../application/admin\view\example\baidumap\edit.html[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2020-08-20T14:47:31+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/example/customsearch/edit/ids/637?dialog=1
+[运行时间：0.072615s] [吞吐率：13.77req/s] [内存消耗：815.90kb] [文件加载：148]
+[ error ] [0]模板文件不存在:F:\2_install_path\wamp64\www\FastAdmin\public/../application/admin\view\example\customsearch\edit.html[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\view\driver\Think.php:82]

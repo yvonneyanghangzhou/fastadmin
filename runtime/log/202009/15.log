@@ -1,0 +1,8 @@
+---------------------------------------------------------------
+[ 2020-09-15T10:41:00+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/import
+[运行时间：0.062257s] [吞吐率：16.06req/s] [内存消耗：863.08kb] [文件加载：149]
+[ error ] [0]致命错误: Class 'app\admin\controller\exam\Xls' not found[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php:266]
+---------------------------------------------------------------
+[ 2020-09-15T10:42:44+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/question/import
+[运行时间：0.060948s] [吞吐率：16.41req/s] [内存消耗：931.27kb] [文件加载：152]
+[ error ] [0]类型错误: Too few arguments to function PhpOffice\PhpSpreadsheet\Writer\Xlsx::__construct(), 0 passed in F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\Question.php on line 268 and exactly 1 expected[F:\2_install_path\wamp64\www\FastAdmin\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php:112]

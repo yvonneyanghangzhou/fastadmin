@@ -262,7 +262,7 @@ return [
         //会员注册验证码类型email/mobile/wechat/text/false
         'user_register_captcha' => 'text',
         //登录验证码
-        'login_captcha'         => true,
+        'login_captcha'         => false,
         //登录失败超过10次则1天后重试
         'login_failure_retry'   => true,
         //是否同一账号同一时间只能在一个地方登录
@@ -280,4 +280,15 @@ return [
         //API接口地址
         'api_url'               => 'https://api.fastadmin.net',
     ],
+    //考试项目配置
+    'exam'                      =>[
+        //试题题型
+        'question_type'         =>[
+            'true_false_question'  =>1,
+            'single_choice'        =>2,
+            'multiple_choice'      =>3,
+            'blank_answers'        =>4,
+            'questions_and_answers'=>5,
+        ]
+    ]
 ];

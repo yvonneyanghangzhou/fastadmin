@@ -1,0 +1,222 @@
+---------------------------------------------------------------
+[ 2020-07-21T09:06:17+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22link.exam_id%22%3A%221%22%7D&op=%7B%22link.exam_id%22%3A%22%3D%22%7D&_=1595293566192
+[运行时间：0.085425s] [吞吐率：11.71req/s] [内存消耗：908.79kb] [文件加载：154]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'link.exam_id' in 'where clause'[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-07-21T09:53:05+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin/index
+[运行时间：0.040335s] [吞吐率：24.79req/s] [内存消耗：393.79kb] [文件加载：133]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T09:53:06+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin/index
+[运行时间：0.019683s] [吞吐率：50.80req/s] [内存消耗：392.55kb] [文件加载：133]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T09:53:08+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin/index
+[运行时间：0.047285s] [吞吐率：21.15req/s] [内存消耗：392.55kb] [文件加载：133]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T09:53:10+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin/index
+[运行时间：0.042419s] [吞吐率：23.57req/s] [内存消耗：392.55kb] [文件加载：133]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T09:53:13+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin/index
+[运行时间：0.043183s] [吞吐率：23.16req/s] [内存消耗：392.55kb] [文件加载：133]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T09:53:15+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin/index
+[运行时间：0.047580s] [吞吐率：21.02req/s] [内存消耗：392.55kb] [文件加载：133]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T10:12:36+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?addtabs=1
+[运行时间：0.099766s] [吞吐率：10.02req/s] [内存消耗：829.50kb] [文件加载：149]
+[ error ] [0]method not exist:think\db\Query->getTypeList[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Query.php:103]
+---------------------------------------------------------------
+[ 2020-07-21T10:13:09+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?addtabs=1
+[运行时间：0.119947s] [吞吐率：8.34req/s] [内存消耗：912.29kb] [文件加载：153]
+[ error ] [8]未定义变量: typeListList[F:\2_install_path\wamp64\www\FastAdmin\runtime\temp\93dff23929a53a809500315a366948ea.php:175]
+---------------------------------------------------------------
+[ 2020-07-21T10:16:01+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1595297760599
+[运行时间：0.081660s] [吞吐率：12.25req/s] [内存消耗：835.37kb] [文件加载：149]
+[ error ] [0]类的属性不存在:app\admin\model\exam\ExamUser->Type_text[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-21T02:34:56+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?ref=addtabs
+[运行时间：0.059118s] [吞吐率：16.92req/s] [内存消耗：221.69kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:34:59+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user?ref=addtabs
+[运行时间：0.027675s] [吞吐率：36.13req/s] [内存消耗：220.59kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:35:12+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/index/login?url=%2FFastAdmin%2Fpublic%2FSgJlEuVysn.php%2F
+[运行时间：0.031252s] [吞吐率：32.00req/s] [内存消耗：220.03kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:35:46+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/
+[运行时间：0.034465s] [吞吐率：29.01req/s] [内存消耗：219.69kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:36:06+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/
+[运行时间：0.044886s] [吞吐率：22.28req/s] [内存消耗：220.08kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:36:06+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/
+[运行时间：0.021066s] [吞吐率：47.47req/s] [内存消耗：220.08kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:36:48+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/
+[运行时间：0.037445s] [吞吐率：26.71req/s] [内存消耗：220.15kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:36:49+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/
+[运行时间：0.030402s] [吞吐率：32.89req/s] [内存消耗：220.15kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:36:49+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/
+[运行时间：0.022903s] [吞吐率：43.66req/s] [内存消耗：220.15kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:37:08+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/
+[运行时间：0.027867s] [吞吐率：35.88req/s] [内存消耗：218.92kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:37:35+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/
+[运行时间：0.035908s] [吞吐率：27.85req/s] [内存消耗：218.95kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:38:38+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/dashboard?ref=addtabs
+[运行时间：0.029683s] [吞吐率：33.69req/s] [内存消耗：221.82kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:367]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:39:12+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/dashboard?ref=addtabs
+[运行时间：0.044515s] [吞吐率：22.46req/s] [内存消耗：285.70kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:368]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T02:39:16+00:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/dashboard?ref=addtabs
+[运行时间：0.025581s] [吞吐率：39.09req/s] [内存消耗：221.59kb] [文件加载：107]
+[ error ] [2]Use of undefined constant changeTimeType - assumed 'changeTimeType' (this will throw an Error in a future version of PHP)[F:\2_install_path\wamp64\www\FastAdmin\application\common.php:368]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-21T10:58:59+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.055018s] [吞吐率：18.18req/s] [内存消耗：817.46kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:00:12+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin/selectpage
+[运行时间：0.026566s] [吞吐率：37.64req/s] [内存消耗：392.99kb] [文件加载：133]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T11:00:18+08:00 ] 0.0.0.0 POST localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin/selectpage
+[运行时间：0.024717s] [吞吐率：40.46req/s] [内存消耗：392.60kb] [文件加载：133]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T11:01:21+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin?addtabs=1
+[运行时间：0.044100s] [吞吐率：22.68req/s] [内存消耗：392.02kb] [文件加载：135]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T11:02:05+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/auth/admin?ref=addtabs
+[运行时间：0.054319s] [吞吐率：18.41req/s] [内存消耗：393.11kb] [文件加载：135]
+[ error ] [2]Declaration of app\admin\controller\auth\Admin::selectpage() should be compatible with app\common\controller\Backend::selectpage($group = '')[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\auth\Admin.php:18]
+---------------------------------------------------------------
+[ 2020-07-21T11:28:05+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.062730s] [吞吐率：15.94req/s] [内存消耗：816.47kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:28:09+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.067293s] [吞吐率：14.86req/s] [内存消耗：816.47kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:28:13+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=
+[运行时间：0.080105s] [吞吐率：12.48req/s] [内存消耗：816.02kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:28:14+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.061146s] [吞吐率：16.35req/s] [内存消耗：816.00kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:28:18+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.058139s] [吞吐率：17.20req/s] [内存消耗：816.00kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:28:36+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.062664s] [吞吐率：15.96req/s] [内存消耗：816.47kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:28:40+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=
+[运行时间：0.068289s] [吞吐率：14.64req/s] [内存消耗：816.02kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:29:25+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.063113s] [吞吐率：15.84req/s] [内存消耗：816.47kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:29:28+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=
+[运行时间：0.073329s] [吞吐率：13.64req/s] [内存消耗：816.02kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:29:29+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.062050s] [吞吐率：16.12req/s] [内存消耗：816.47kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:29:40+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.063387s] [吞吐率：15.78req/s] [内存消耗：816.47kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T11:29:48+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.062461s] [吞吐率：16.01req/s] [内存消耗：816.47kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T15:27:10+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.068947s] [吞吐率：14.50req/s] [内存消耗：816.82kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T15:27:16+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.066365s] [吞吐率：15.07req/s] [内存消耗：816.08kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T15:28:24+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/edit/ids/85?dialog=1
+[运行时间：0.084395s] [吞吐率：11.85req/s] [内存消耗：857.79kb] [文件加载：151]
+[ error ] [0]类的属性不存在:app\admin\model\exam\ExamUser->type_list[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-21T15:28:24+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/edit/ids/47?dialog=1
+[运行时间：0.123416s] [吞吐率：8.10req/s] [内存消耗：827.32kb] [文件加载：149]
+[ error ] [0]类的属性不存在:app\admin\model\exam\ExamUser->type_list[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-21T15:28:24+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/edit/ids/2?dialog=1
+[运行时间：0.176115s] [吞吐率：5.68req/s] [内存消耗：827.32kb] [文件加载：149]
+[ error ] [0]类的属性不存在:app\admin\model\exam\ExamUser->type_list[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-21T15:28:24+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/edit/ids/70?dialog=1
+[运行时间：0.249936s] [吞吐率：4.00req/s] [内存消耗：827.31kb] [文件加载：149]
+[ error ] [0]类的属性不存在:app\admin\model\exam\ExamUser->type_list[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-21T15:28:34+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/edit/ids/85?dialog=1
+[运行时间：0.074603s] [吞吐率：13.40req/s] [内存消耗：827.47kb] [文件加载：149]
+[ error ] [0]类的属性不存在:app\admin\model\exam\ExamUser->type_list[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-21T16:05:36+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.065654s] [吞吐率：15.23req/s] [内存消耗：816.55kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T16:05:42+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=4
+[运行时间：0.064443s] [吞吐率：15.52req/s] [内存消耗：816.08kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T16:08:40+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkSelect?org_id=2
+[运行时间：0.073027s] [吞吐率：13.69req/s] [内存消耗：816.82kb] [文件加载：152]
+[ error ] [8]未定义数组索引: online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\model\exam\ExamUser.php:50]
+---------------------------------------------------------------
+[ 2020-07-21T16:11:50+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkExam?dialog=1
+[运行时间：0.086299s] [吞吐率：11.59req/s] [内存消耗：806.35kb] [文件加载：150]
+[ error ] [8]未定义变量: ids[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:104]

@@ -1,0 +1,116 @@
+---------------------------------------------------------------
+[ 2020-08-26T10:02:07+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkExam
+[运行时间：0.054533s] [吞吐率：18.34req/s] [内存消耗：817.84kb] [文件加载：150]
+[ error ] [0]查询表达式错误:onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-08-26T10:02:14+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkExam
+[运行时间：0.050411s] [吞吐率：19.84req/s] [内存消耗：816.65kb] [文件加载：150]
+[ error ] [0]查询表达式错误:onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-08-26T10:10:45+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/linkExam
+[运行时间：0.069663s] [吞吐率：14.35req/s] [内存消耗：817.84kb] [文件加载：150]
+[ error ] [0]查询表达式错误:onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\thinkphp\library\think\db\Builder.php:347]
+---------------------------------------------------------------
+[ 2020-08-26T10:59:42+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22onl.online_time%22%3A%2230%22%7D&op=%7B%22onl.online_time%22%3A%22%3E%22%7D&_=1598410460292
+[运行时间：0.082338s] [吞吐率：12.15req/s] [内存消耗：809.98kb] [文件加载：151]
+[ error ] [8]未定义变量: online_time_op[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:85]
+---------------------------------------------------------------
+[ 2020-08-26T10:59:43+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22onl.online_time%22%3A%2230%22%7D&op=%7B%22onl.online_time%22%3A%22%3E%22%7D&_=1598410460293
+[运行时间：0.053307s] [吞吐率：18.76req/s] [内存消耗：808.75kb] [文件加载：151]
+[ error ] [8]未定义变量: online_time_op[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:85]
+---------------------------------------------------------------
+[ 2020-08-26T11:01:21+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22onl.online_time%22%3A%2230%22%7D&op=%7B%22onl.online_time%22%3A%22%3C%22%7D&_=1598410460298
+[运行时间：0.067922s] [吞吐率：14.72req/s] [内存消耗：909.70kb] [文件加载：151]
+[ error ] [8]未定义变量: where[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:89]
+---------------------------------------------------------------
+[ 2020-08-26T11:03:49+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598411028672
+[运行时间：0.062342s] [吞吐率：16.04req/s] [内存消耗：819.05kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:90]
+---------------------------------------------------------------
+[ 2020-08-26T11:03:50+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598411028673
+[运行时间：0.068382s] [吞吐率：14.62req/s] [内存消耗：819.05kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:90]
+---------------------------------------------------------------
+[ 2020-08-26T11:06:41+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22onl.online_time%22%3A%2230%22%7D&op=%7B%22onl.online_time%22%3A%22%3C%22%7D&_=1598411028684
+[运行时间：0.080029s] [吞吐率：12.50req/s] [内存消耗：918.77kb] [文件加载：150]
+[ error ] [0]致命错误: Cannot use object of type Closure as array[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:93]
+---------------------------------------------------------------
+[ 2020-08-26T11:20:11+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22onl.online_time%22%3A%2240%22%7D&op=%7B%22onl.online_time%22%3A%22%3E%22%7D&_=1598411028695
+[运行时间：0.068599s] [吞吐率：14.58req/s] [内存消耗：825.39kb] [文件加载：151]
+[ error ] [8]未定义变量: map[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:128]
+---------------------------------------------------------------
+[ 2020-08-26T15:57:00+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598428619822
+[运行时间：0.071268s] [吞吐率：14.03req/s] [内存消耗：831.60kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T15:58:26+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598428619823
+[运行时间：0.086301s] [吞吐率：11.59req/s] [内存消耗：831.63kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:04:47+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429087433
+[运行时间：0.071929s] [吞吐率：13.90req/s] [内存消耗：831.63kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:04:57+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429087434
+[运行时间：0.065418s] [吞吐率：15.29req/s] [内存消耗：831.63kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:05:02+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429087435
+[运行时间：0.056315s] [吞吐率：17.76req/s] [内存消耗：831.91kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:06:33+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429087436
+[运行时间：0.088256s] [吞吐率：11.33req/s] [内存消耗：833.02kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:06:39+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198710
+[运行时间：0.063950s] [吞吐率：15.64req/s] [内存消耗：831.91kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:06:40+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198711
+[运行时间：0.068197s] [吞吐率：14.66req/s] [内存消耗：831.91kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:06:44+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198712
+[运行时间：0.076975s] [吞吐率：12.99req/s] [内存消耗：831.91kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:07:10+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198713
+[运行时间：0.099940s] [吞吐率：10.01req/s] [内存消耗：937.27kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:07:49+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198714
+[运行时间：0.074430s] [吞吐率：13.44req/s] [内存消耗：937.32kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:08:06+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198715
+[运行时间：0.091026s] [吞吐率：10.99req/s] [内存消耗：833.02kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:88]
+---------------------------------------------------------------
+[ 2020-08-26T16:09:03+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198718
+[运行时间：0.068249s] [吞吐率：14.65req/s] [内存消耗：831.91kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:87]
+---------------------------------------------------------------
+[ 2020-08-26T16:09:06+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198719
+[运行时间：0.061958s] [吞吐率：16.14req/s] [内存消耗：831.91kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:87]
+---------------------------------------------------------------
+[ 2020-08-26T16:10:25+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198721
+[运行时间：0.075276s] [吞吐率：13.28req/s] [内存消耗：958.98kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:87]
+---------------------------------------------------------------
+[ 2020-08-26T16:10:44+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198723
+[运行时间：0.084254s] [吞吐率：11.87req/s] [内存消耗：958.98kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:87]
+---------------------------------------------------------------
+[ 2020-08-26T16:10:53+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198724
+[运行时间：0.074819s] [吞吐率：13.37req/s] [内存消耗：958.98kb] [文件加载：151]
+[ error ] [8]未定义数组索引: onl.online_time[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:87]
+---------------------------------------------------------------
+[ 2020-08-26T16:12:45+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198729
+[运行时间：0.093418s] [吞吐率：10.70req/s] [内存消耗：838.32kb] [文件加载：151]
+[ error ] [8]未定义变量: map[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:126]
+---------------------------------------------------------------
+[ 2020-08-26T16:13:03+08:00 ] 0.0.0.0 GET localhost:8090/FastAdmin/public/SgJlEuVysn.php/exam/exam_user/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598429198730
+[运行时间：0.082924s] [吞吐率：12.06req/s] [内存消耗：838.21kb] [文件加载：151]
+[ error ] [8]未定义变量: map[F:\2_install_path\wamp64\www\FastAdmin\application\admin\controller\exam\ExamUser.php:126]

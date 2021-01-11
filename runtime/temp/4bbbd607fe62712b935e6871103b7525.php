@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:94:"F:\2_install_path\wamp64\www\FastAdmin\public/../application/admin\view\exam\project\edit.html";i:1594950181;s:81:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\layout\default.html";i:1588765312;s:78:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\common\meta.html";i:1588765312;s:80:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\common\script.html";i:1588765312;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:94:"F:\2_install_path\wamp64\www\FastAdmin\public/../application/admin\view\exam\project\edit.html";i:1595223985;s:81:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\layout\default.html";i:1588765312;s:78:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\common\meta.html";i:1588765312;s:80:"F:\2_install_path\wamp64\www\FastAdmin\application\admin\view\common\script.html";i:1588765312;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -59,17 +59,15 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Duration'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Org_id'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-duration" class="form-control" name="row[duration]" type="text"
-                value="<?php echo htmlentities($row['duration']); ?>">
+            <input id="c-org_id" data-rule="required" data-source="base_org/index" class="form-control selectpage" name="row[org_id]" type="text" value="<?php echo htmlentities($row['org_id']); ?>">
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Description'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Duration'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <textarea id="c-description" class="form-control " rows="5" name="row[description]"
-                cols="50"><?php echo htmlentities($row['description']); ?></textarea>
+            <input id="c-duration" class="form-control" name="row[duration]" type="number" value="<?php echo htmlentities($row['duration']); ?>">
         </div>
     </div>
     <div class="form-group">
@@ -79,45 +77,6 @@
                 value="<?php echo htmlentities($row['total_times']); ?>">
         </div>
     </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Start_date'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-start_date" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss"
-                data-use-current="true" name="row[start_date]" type="text" value="<?php echo $row['start_date']; ?>">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Close_date'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-close_date" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss"
-                data-use-current="true" name="row[close_date]" type="text" value="<?php echo $row['close_date']; ?>">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Allow_mock'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <select id="c-allow_mock" class="form-control selectpicker" name="row[allow_mock]">
-                <?php if(is_array($allowOrNotList) || $allowOrNotList instanceof \think\Collection || $allowOrNotList instanceof \think\Paginator): if( count($allowOrNotList)==0 ) : echo "" ;else: foreach($allowOrNotList as $key=>$vo): ?>
-                <option value="<?php echo $key; ?>" <?php if(in_array(($key), is_array($row['allow_mock'])?$row['allow_mock']:explode(',',$row['allow_mock']))): ?>selected<?php endif; ?>><?php echo $vo; ?></option>
-                <?php endforeach; endif; else: echo "" ;endif; ?>
-            </select>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Mock_start_date'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-mock_start_date" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss"
-                data-use-current="true" name="row[mock_start_date]" type="text" value="<?php echo $row['mock_start_date']; ?>">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Mock_close_date'); ?>:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-mock_close_date" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss"
-                data-use-current="true" name="row[mock_close_date]" type="text" value="<?php echo $row['mock_close_date']; ?>">
-        </div>
-    </div>
-
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Pass_line'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
@@ -133,13 +92,69 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Enable_commitment'); ?>:</label>
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Description'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <select id="c-allow_print_commitment" class="form-control selectpicker" name="row[enable_commitment]">
-                <?php if(is_array($allowOrNotList) || $allowOrNotList instanceof \think\Collection || $allowOrNotList instanceof \think\Paginator): if( count($allowOrNotList)==0 ) : echo "" ;else: foreach($allowOrNotList as $key=>$vo): ?>
-                <option value="<?php echo $key; ?>" <?php if(in_array(($key), is_array($row['enable_commitment'])?$row['enable_commitment']:explode(',',$row['enable_commitment']))): ?>selected<?php endif; ?>><?php echo $vo; ?></option>
+            <textarea id="c-description" class="form-control " rows="5" name="row[description]" cols="50"><?php echo htmlentities($row['description']); ?></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Start_date'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-start_date" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[start_date]" type="text" value="<?php echo $row['start_date']; ?>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Close_date'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-close_date" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[close_date]" type="text" value="<?php echo $row['close_date']; ?>">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Status'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            <?php if(is_array($statusList) || $statusList instanceof \think\Collection || $statusList instanceof \think\Paginator): if( count($statusList)==0 ) : echo "" ;else: foreach($statusList as $key=>$vo): ?>
+            <label for="row[status]-<?php echo $key; ?>"><input id="row[status]-<?php echo $key; ?>" name="row[status]" type="radio" value="<?php echo $key; ?>" <?php if(in_array(($key), is_array($row['status'])?$row['status']:explode(',',$row['status']))): ?>checked<?php endif; ?> /> <?php echo $vo; ?></label> 
+            <?php endforeach; endif; else: echo "" ;endif; ?>
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Allow_mock'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-allow_mock" class="form-control selectpicker" name="row[allow_mock]">
+                <?php if(is_array($allowMockList) || $allowMockList instanceof \think\Collection || $allowMockList instanceof \think\Paginator): if( count($allowMockList)==0 ) : echo "" ;else: foreach($allowMockList as $key=>$vo): ?>
+                    <option value="<?php echo $key; ?>" <?php if(in_array(($key), is_array($row['allow_mock'])?$row['allow_mock']:explode(',',$row['allow_mock']))): ?>selected<?php endif; ?>><?php echo $vo; ?></option>
                 <?php endforeach; endif; else: echo "" ;endif; ?>
             </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Mock_start_date'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mock_start_date" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[mock_start_date]" type="text" value="<?php echo $row['mock_start_date']; ?>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Mock_close_date'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mock_close_date" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[mock_close_date]" type="text" value="<?php echo $row['mock_close_date']; ?>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2"><?php echo __('Enable_commitment'); ?>:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-enable_commitment" class="form-control selectpicker" name="row[enable_commitment]">
+                <?php if(is_array($enableCommitmentList) || $enableCommitmentList instanceof \think\Collection || $enableCommitmentList instanceof \think\Paginator): if( count($enableCommitmentList)==0 ) : echo "" ;else: foreach($enableCommitmentList as $key=>$vo): ?>
+                    <option value="<?php echo $key; ?>" <?php if(in_array(($key), is_array($row['enable_commitment'])?$row['enable_commitment']:explode(',',$row['enable_commitment']))): ?>selected<?php endif; ?>><?php echo $vo; ?></option>
+                <?php endforeach; endif; else: echo "" ;endif; ?>
+            </select>
+
         </div>
     </div>
     <div class="form-group">
@@ -151,21 +166,25 @@
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Allow_print_commitment'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <select id="c-allow_print_commitment" class="form-control selectpicker" name="row[allow_print_commitment]">
-                <?php if(is_array($allowOrNotList) || $allowOrNotList instanceof \think\Collection || $allowOrNotList instanceof \think\Paginator): if( count($allowOrNotList)==0 ) : echo "" ;else: foreach($allowOrNotList as $key=>$vo): ?>
-                <option value="<?php echo $key; ?>" <?php if(in_array(($key), is_array($row['allow_print_commitment'])?$row['allow_print_commitment']:explode(',',$row['allow_print_commitment']))): ?>selected<?php endif; ?>><?php echo $vo; ?></option>
+                        
+            <select  id="c-allow_print_commitment" class="form-control selectpicker" name="row[allow_print_commitment]">
+                <?php if(is_array($allowPrintCommitmentList) || $allowPrintCommitmentList instanceof \think\Collection || $allowPrintCommitmentList instanceof \think\Paginator): if( count($allowPrintCommitmentList)==0 ) : echo "" ;else: foreach($allowPrintCommitmentList as $key=>$vo): ?>
+                    <option value="<?php echo $key; ?>" <?php if(in_array(($key), is_array($row['allow_print_commitment'])?$row['allow_print_commitment']:explode(',',$row['allow_print_commitment']))): ?>selected<?php endif; ?>><?php echo $vo; ?></option>
                 <?php endforeach; endif; else: echo "" ;endif; ?>
             </select>
+
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2"><?php echo __('Allow_print_certificate'); ?>:</label>
         <div class="col-xs-12 col-sm-8">
-            <select id="c-allow_print_certificate" class="form-control selectpicker" name="row[allow_print_certificate]">
-                <?php if(is_array($allowOrNotList) || $allowOrNotList instanceof \think\Collection || $allowOrNotList instanceof \think\Paginator): if( count($allowOrNotList)==0 ) : echo "" ;else: foreach($allowOrNotList as $key=>$vo): ?>
-                <option value="<?php echo $key; ?>" <?php if(in_array(($key), is_array($row['allow_print_certificate'])?$row['allow_print_certificate']:explode(',',$row['allow_print_certificate']))): ?>selected<?php endif; ?>><?php echo $vo; ?></option>
+                        
+            <select  id="c-allow_print_certificate" class="form-control selectpicker" name="row[allow_print_certificate]">
+                <?php if(is_array($allowPrintCertificateList) || $allowPrintCertificateList instanceof \think\Collection || $allowPrintCertificateList instanceof \think\Paginator): if( count($allowPrintCertificateList)==0 ) : echo "" ;else: foreach($allowPrintCertificateList as $key=>$vo): ?>
+                    <option value="<?php echo $key; ?>" <?php if(in_array(($key), is_array($row['allow_print_certificate'])?$row['allow_print_certificate']:explode(',',$row['allow_print_certificate']))): ?>selected<?php endif; ?>><?php echo $vo; ?></option>
                 <?php endforeach; endif; else: echo "" ;endif; ?>
             </select>
+
         </div>
     </div>
     <div class="form-group layer-footer">
@@ -176,6 +195,7 @@
         </div>
     </div>
 </form>
+
                             </div>
                         </div>
                     </div>

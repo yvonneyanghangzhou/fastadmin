@@ -1,32 +1,41 @@
 <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
 
     <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Avatar')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-avatar" class="form-control" size="50" name="row[avatar]" type="text" value="{$row.avatar|htmlentities}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-avatar" class="btn btn-danger plupload" data-input-id="c-avatar" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-avatar"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-avatar" class="btn btn-primary fachoose" data-input-id="c-avatar" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-avatar"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-avatar"></ul>
+        </div>
+    </div>
+    <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Username')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-username" data-rule="required" class="form-control" name="row[username]" type="text"
-                value="{$row.username|htmlentities}">
+            <input id="c-username" data-rule="required" class="form-control" name="row[username]" type="text" value="{$row.username|htmlentities}">
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text"
-                value="{$row.name|htmlentities}">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
         </div>
     </div>
-
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Org_id')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-org_id" data-rule="required" data-source="base_org/index" class="form-control selectpage"
-                name="row[org_id]" type="text" value="{$row.org_id|htmlentities}">
+            <input id="c-org_id" data-rule="required" data-source="base_org/index" class="form-control selectpage" name="row[org_id]" type="text" value="{$row.org_id|htmlentities}">
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Password')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-password" data-rule="required" class="form-control" name="row[password]" type="text"
-                value="{$row.password|htmlentities}">
+            <input id="c-password" data-rule="required" class="form-control" name="row[password]" type="text" value="{$row.password|htmlentities}">
         </div>
     </div>
     <div class="form-group">
@@ -36,22 +45,27 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-xs-12 col-sm-2">{:__('Class_name')}:</label>
-        <div class="col-xs-12 col-sm-8">
-            <input id="c-class_name" class="form-control" name="row[class_name]" type="text"
-                value="{$row.class_name|htmlentities}">
-        </div>
-    </div>
-    <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Grade')}:</label>
         <div class="col-xs-12 col-sm-8">
             <input id="c-grade" class="form-control" name="row[grade]" type="text" value="{$row.grade|htmlentities}">
         </div>
     </div>
     <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Class_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-class_name" class="form-control" name="row[class_name]" type="text" value="{$row.class_name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <input id="c-type" class="form-control" name="row[type]" type="text" value="{$row.type|htmlentities}">
+                        
+            <select  id="c-type_list" class="form-control selectpicker" name="row[type]">
+                {foreach name="typeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.type"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
         </div>
     </div>
 
